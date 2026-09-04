@@ -1,0 +1,6 @@
+aws_region   = "ap-south-1"
+project_name = "Student_registration"
+environment  = "dev"
+
+# Supply this securely; do not commit real credentials.
+db_password = "CHANGE_ME"
