@@ -128,7 +128,7 @@ Student-Registration-MultiCloud/
 
 ### SonarQube quality gate
 
-![AWS SonarQube](docs/screenshots/aws/sonarqube-code-pass.png)
+![AWS SonarQube](docs/screenshots/aws/sonarqube-in-jenkins.png)
 
 ## 📸 Deployment Evidence — Azure
 
@@ -160,9 +160,9 @@ Student-Registration-MultiCloud/
 
 ![Azure Managed Prometheus](docs/screenshots/azure/13-managed-prometheus-enabled.png)
 
-### Grafana dashboard
+### Grafana monitoring — HTTP status distribution
 
-![Azure Grafana](docs/screenshots/azure/16-grafana-home.png)
+![Azure Grafana HTTP Status Distribution](docs/screenshots/azure/18-metric-http-status-distribution.png)
 
 ## 🔐 Security Practices
 
