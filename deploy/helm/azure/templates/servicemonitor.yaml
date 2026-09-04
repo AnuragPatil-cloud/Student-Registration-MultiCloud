@@ -1,0 +1,19 @@
+apiVersion: azmonitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: student-registration-backend
+  namespace: {{ .Values.namespace }}
+spec:
+  labelLimit: 63
+  labelNameLengthLimit: 511
+  labelValueLengthLimit: 1023
+
+  selector:
+    matchLabels:
+      app: student-registration-backend
+
+  endpoints:
+    - port: http
+      path: /actuator/prometheus
+      interval: 30s
+      scheme: http
